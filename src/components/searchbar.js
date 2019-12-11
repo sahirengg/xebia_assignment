@@ -10,7 +10,7 @@ constructor(){
     }
 }
 componentDidMount(){
-console.log(this.ImagesApi)
+
 }
 
 
