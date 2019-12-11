@@ -15,10 +15,6 @@ componentDidMount(){
 
 
 
-onInputSearch=(e)=>{
-console.log(e.target.value)
-}
-
 onFormSubmit=(e)=>{
     e.preventDefault();
     this.props.onSubmit(this.state.term)
